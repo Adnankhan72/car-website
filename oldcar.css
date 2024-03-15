@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar h1{
+   margin-left: 20px;
+}
+
+
+.navpart ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8vh;
+
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 30px;
+
+}
+
+.navpart ul a {
+    color: black;
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+
+
+.content {
+    width: 100%;
+    height: 700px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.left {
+    width: 45%;
+    height: 100%;
+    background-color: #fefefe;
+
+}
+
+.left {
+    padding: 50px;
+}
+
+.left h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 30px 30px;
+}
+
+.left h1 span {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.left p {
+    color: #2b2b2b;
+    font-size: 20px;
+    margin: 40px 40px;
+
+}
+
+.left h3 {
+    color: #2b2b2b;
+    font-size: 30px;
+    margin: 40px;
+
+}
+
+.left h3 i {
+    color: black;
+
+    border: 10px solid #ffde97;
+    border-radius: 50px;
+    font-size: 20px;
+
+    margin: 40px 40px;
+}
+
+.right {
+    width: 35%;
+    height: 100%;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 80px;
+    padding: 50px;
+    margin: 40px 40px;
+    position: relative;
+}
+
+.right .imgcontent {
+    position: absolute;
+    margin: 40px 40px;
+    width: 65%;
+    height: 60%;
+    top: 55px;
+    border-radius: 12px;
+    background-color: #e8e7ec;
+}
+
+.right .imgcontent img {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: -150px;
+    max-width: 1000px;
+
+}
+
+.right .imgcontent h2 {
+    margin: 20px;
+    padding: 15px 20px;
+}
+
+/* .slide {
+
+    width: 15%;
+    height: 100%;
+    background-color: #fefefe;
+    flex-direction: column-reverse;
+    display: flex;
+    /* align-items: center;
+   justify-content: space-between; 
+}*/
+
+
+/* flex-wrap: wrap;
+    margin: 20px 30px; */
+
+
+
+
+.slide {
+    width: 30%;
+    height: 100%;
+    background-color: #fefefe;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    gap: 10px;
+    /* Add gap between the boxes */
+}
+
+
+.slide .main {
+    position: absolute;
+    top: 75px;
+
+
+    
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px 30px;
+    gap: 40px;
+    /* Add gap between the boxes */
+
+
+
+}
+
+.slide .box1 {
+    width: 150px;
+    height: 100px;
+    background-color: #e8e7ec;
+    border-radius: 15px;
+
+
+}
+
+.slide .box1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide .box2 {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #e8e7ec;
+
+
+}
+
+.slide .box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide .box3 {
+    width: 150px;
+    height: 100px;
+    background-color: #e8e7ec;
+    border-radius: 15px;
+
+}
+
+.slide .box3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+    background-color: #fefefe;
+    position: relative;
+    display: flex;
+}
+
+.section .part1 {
+    width: 45%;
+    height: 100%;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+     padding: 20px;
+}
+
+.square {
+    width: 60%;
+    height: 80%;
+    background-color: #e8e7ec;
+    border-radius: 20px;
+    margin-right: 25%;
+
+
+}
+
+.square h3 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.square p {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.square img {
+    width: 350px;
+    height: 250px;
+
+}
+.part2{
+    width: 60%;
+    height: 500px;
+    background-color: #fefefe;
+    display: flex;
+ 
+}
+.part2 h1{
+    font-size: 5vw;
+    margin-top: 10%;
+}
+.part2 .level{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #e8e7ec;
+    margin-top: 10%;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.part2 .level p{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 600;
+
+   
+
+}
+
+.main{
+    height: 300px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 80px 13% 70px;
+   border-radius: 20px;
+
+}
+.footer{
+    padding: 10px 0;
+    background-color: #1a242f;
+
+}
+.col{
+    width: 20%;
+
+}
+.col h1{
+    color: #fff;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.col p{
+    color: #d6d6d6;
+    color: #fff;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.col h4{
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.col ul li:not(last-child){
+    margin-bottom: 20px;
+
+}
+.col ul{
+    list-style:none ;
+    text-decoration: none;
+}
+
+.col ul li a{
+    color:  #d6d6d6;;
+    font-size: 1.1em;
+    display: block;
+    text-transform: capitalize;
+    transition: all .40s ease;
+    font-weight: 600;
+
+   
+}
+.col ul li a:hover{
+    color: #2b2b2b;
+    transform: translateX(-12px);
+}
+.col .social{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .40s ease;
+
+}
+.col .social a {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+
+    color: #d6d6d6;;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: all .40s ease;
+    
+}
+
+.col ul li a i:hover{
+    color: #2b2b2b;
+    transform: translateX(-12px);
+}
+
+
+
